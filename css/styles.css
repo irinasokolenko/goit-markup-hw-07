@@ -413,7 +413,6 @@ img{
     display: flex;
     flex-wrap: wrap;
     gap: 32px;
-    padding: 0px 0px 32px;
 }
 .person-item {
  background-color: var(--main-white-color);
@@ -931,21 +930,8 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
 }
 .policy{
   color: var(--main-title-color);
+}
 
-}
-@media screen and (min-widtn: 429px) {
-.container {
-    width: 428px;
-}
-}
- @media screen and (min-widtn: 728px) {
-        .container {
-            width: 728px;
-  }
- .person-item{
-    flex-basis: calc((100% - 30px) / 2 );
- }
- }
 /*
 .practice-txt check:checked + .input-check::before{
     border: none;

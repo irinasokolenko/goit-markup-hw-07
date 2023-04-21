@@ -1,0 +1,31 @@
+/*----section # 4-----*/
+@media screen and (min-widtn: 429px) {
+  .container {
+    width: 428px;
+    text-align: center;
+}
+}
+ @media screen and (min-widtn: 728px) {
+        .container {
+            width: 728px;
+  }
+  .section{
+    padding-top: 100%;
+    padding-bottom: 100%;
+ }
+ .person-item{
+    flex-basis: calc((100% - 30px) / 2 );
+ }
+ }
+ @media screen and (min-widtn: 1158px) {
+    .container {
+        width: 1158px;
+}
+.person-item{
+    flex-basis: calc((100% - 90px) / 4 );
+}
+.section{
+    padding-top: 100%;
+    padding-bottom: 100%;
+ }
+ }
