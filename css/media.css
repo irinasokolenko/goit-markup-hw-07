@@ -1,19 +1,36 @@
 /*----section # 4-----*/
-@media screen and (max-widtn: 429px) {
-  .container {
-    width: 428px;
-    text-align: center;
+.container{
+    width: 100%;
+    padding-left: 15px;
+     padding-right: 15px;
+     margin-left: auto;
+     margin-right: auto;
 }
+@media screen and (min-width: 480px){
+    .container{
+        width: 480px;
+    }
 }
- @media screen and (min-widtn: 728px) {
-        .container {
-            width: 728px;
-  }
-  .section{
+
+@media screen and (min-width: 768px){
+    .container{
+        width: 768px;
+    }
+    .person-item{
+        width: calc((100% - 30px) / 2);
+    }
+}
+
+
+
+
+
+
+ /* .section{
     padding-top: 100%;
     padding-bottom: 100%;
  }
- .person-item{
+ .person-soc-list{
     flex-basis: calc((100% - 30px) / 2 );
  }
  }
@@ -21,11 +38,11 @@
     .container {
         width: 1158px;
 }
-.person-item{
+.person-soc-list{
     flex-basis: calc((100% - 90px) / 4 );
 }
 .section{
     padding-top: 100%;
     padding-bottom: 100%;
  }
- }
+ }*/
