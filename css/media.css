@@ -1,5 +1,5 @@
 /*----section # 4-----*/
-@media screen and (min-widtn: 429px) {
+@media screen and (max-widtn: 429px) {
   .container {
     width: 428px;
     text-align: center;
