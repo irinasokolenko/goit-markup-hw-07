@@ -20,22 +20,25 @@
         width: calc((100% - 30px) / 2);
     }
 }
-@media screen and (min-width: 1158px){
+ @media screen and (min-width: 1158px){
     .container{
     width: 1158px;
 }
-}
-.section-photo-person{
-    background-color:var(--fon-cloud-color);
-    /*padding-top: 120px;
-    padding-bottom: 120px;*/
-    padding-top: 96px;
-    padding-bottom: 96px;
- }
  @media screen and (min-width: 768px) {
     display: flex;
    flex-wrap: wrap;
  }
+}
+
+.person-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+@media screen and (min-width: 768px) {
+    display: flex;
+    flex-wrap: wrap;
+    }
 
 
 
