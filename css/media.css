@@ -12,6 +12,8 @@
     }
 }
 
+
+
 @media screen and (min-width: 768px){
     .container{
         width: 768px;
@@ -39,6 +41,11 @@
         flex-wrap: wrap;
         gap: 24px;   
     }   
+}
+.photo-comp{
+    @media screen and (max-width: 768px){
+        display: none;
+    }
 }
 
 
@@ -70,8 +77,8 @@
 }
 
 
-
-/*.section-photo-person
+/*section 4
+.section-photo-person
 .person-title (одни параметры)/
 .person-list/
 .person-item /
@@ -82,24 +89,21 @@
 .person-soc-item(одни параметры)/ 
 .person-soc-link(одни параметры)/
 */
-
- /* .section{
-    padding-top: 100%;
-    padding-bottom: 100%;
- }
- .person-soc-list{
-    flex-basis: calc((100% - 30px) / 2 );
- }
- }
- @media screen and (min-widtn: 1158px) {
-    .container {
-        width: 1158px;
-}
-.person-soc-list{
-    flex-basis: calc((100% - 90px) / 4 );
-}
-.section{
-    padding-top: 100%;
-    padding-bottom: 100%;
- }
- }*/
+/*section 3
+.photo-comp (displey none)
+.photo-comp-list/
+.li-comp/
+.photo-comp-title/
+*/
+/*section 2
+.abaut
+.sambol-defs
+.sambol-defs-list
+.sambol-defs-icon
+.sambol-defs-icon
+.abaut-calk
+.abaut-list
+.abaut-list-taytan
+.abaut-calk
+.abaut-text
+*/
