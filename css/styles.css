@@ -403,12 +403,13 @@ img{
 .person-list {
     display: flex;
     flex-wrap: wrap;
-    gap: 32px;
+    /*gap: 32px;*/
 }
 .person-item {
  background-color: var(--main-white-color);
  /*flex-basis: calc((100% - 72px) / 4);*/
  flex-basis: 100%;
+ text-align: center;
  border-radius: 0px 0px 4px 4px;
  background: #FFFFFF;
  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 
