@@ -11,7 +11,12 @@
         width: 480px;
     }
 }
-
+.abaut{
+    @media screen and (min-width: 480px){
+     padding-top: 96px;
+     padding-bottom: 96px;
+    }
+}
 
 
 @media screen and (min-width: 768px){
@@ -42,9 +47,14 @@
         gap: 24px;   
     }   
 }
-.photo-comp{
+.photo-comp, .sambol-defs-icon{
     @media screen and (max-width: 768px){
         display: none;
+    }
+}
+.abaut-list{
+    @media screen and (max-width: 768px){
+        gap: 24px;   
     }
 }
 
@@ -75,6 +85,11 @@
         gap: 32px;   
     }   
 }
+.abaut-list{
+    @media screen and (min-width: 1158px)
+    display: flex;
+    gap: 24px;
+}
 
 
 /*section 4
@@ -99,7 +114,6 @@
 .abaut
 .sambol-defs
 .sambol-defs-list
-.sambol-defs-icon
 .sambol-defs-icon
 .abaut-calk
 .abaut-list

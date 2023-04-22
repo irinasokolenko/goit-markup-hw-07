@@ -334,7 +334,6 @@ img{
  }
 .abaut-list {
  display: flex;
- gap: 24px;
  justify-content: center;
  }
 .abaut-list-taytan{
