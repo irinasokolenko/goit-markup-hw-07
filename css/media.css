@@ -20,39 +20,68 @@
         margin: -15px;
     }
 }
+.person-item {
+    @media screen and (min-width: 768px){
+   flex-basis: 50%;
+   flex-basis: calc((100% - 30px) / 2 )
+ 
+ }
+}
+.section-photo-person{
+    @media screen and (min-width: 768px){
+        padding-top: 96px;
+        padding-bottom: 96px;   
+    }   
+}
+.person-list{
+    @media screen and (min-width: 768px){
+        display: flex;
+        flex-wrap: wrap;
+        gap: 24px;   
+    }   
+}
+
+
+
+
  @media screen and (min-width: 1158px){
     .container{
     width: 1158px;
 }
 }
-
-.person-item {
-    @media screen and (min-width: 768px){
-   flex-basis: 50%;
-   gap: 24px
-   width: calc((100% - 72px) / 2)
-    }
-}
-
 .person-item {
     @media screen and (min-width: 1158px){
    flex-basis: 100%;
-   gap: 32px;
-   width: calc((100% - 72px) / 4);
-   
-    }
+   flex-basis: calc((100% - 72px) / 4);
+ }
+}
+.section-photo-person{
+    @media screen and (min-width: 1158px){
+        padding-top: 120px;
+        padding-bottom: 120px;   
+    }   
+}
+.person-list{
+    @media screen and (min-width: 1158px){
+        display: flex;
+        flex-wrap: wrap;
+        gap: 32px;   
+    }   
 }
 
+
+
 /*.section-photo-person
-.person-title 
-.person-list
-.person-item 
-.photo-person-name
-.person-item-text
-.description
-.person-soc-list 
-.person-soc-item
-.person-soc-link*/
+.person-title (одни параметры)/
+.person-list/
+.person-item /
+.photo-person-name (одни параметры)/
+.person-item-text (одни параметры)/
+.description(одни параметры)/
+.person-soc-list(одни параметры)/ 
+.person-soc-item(одни параметры)/ 
+.person-soc-link(одни параметры)/
+*/
 
  /* .section{
     padding-top: 100%;

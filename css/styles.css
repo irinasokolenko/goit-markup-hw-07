@@ -387,8 +387,8 @@ img{
   background-color:var(--fon-cloud-color);
   /*padding-top: 120px;
   padding-bottom: 120px;*/
-  padding-top: 96px;
-  padding-bottom: 96px;
+ /* padding-top: 96px;
+  padding-bottom: 96px;*/
  }
 .person-title {
  font-weight: 700;
