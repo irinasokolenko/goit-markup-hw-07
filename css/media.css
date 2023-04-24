@@ -16,10 +16,13 @@
         align-items: center;
         gap: 72px;
     }    
+}
+@media screen and (max-width: 320px){
     .photo-comp{
-     display: none;
+        display: none;
     }
 }
+
 
 
 
@@ -35,9 +38,7 @@
     .person-item{
         flex-basis: calc((100% - 30px) / 2 )    
     }
-    .photo-comp{
-        display: none;
-       }
+   
 }
 
 
@@ -50,6 +51,11 @@
 }
 .person-item{
     flex-basis: calc((100% - 72px) / 4);   
+}
+.photo-comp{
+    padding-top: 120px;
+    padding-bottom: 120px; 
+        
 }
 }
 /*section 4
