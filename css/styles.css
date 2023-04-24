@@ -295,10 +295,10 @@ img{
     pointer-events: none;
  }
  /*section 2*/
- .abaut {
+ /*.abaut {
  padding-top: 120px;
  align-items: center;
- }
+ }*/
  .sambol-defs {
  height: 112px;
  border: none;
@@ -329,13 +329,13 @@ img{
     border: 0;
     clip: rect(0 0 0 0);
   }
-.abaut-calk{
+/*.abaut-calk{
     width: calc((100% - 72px) / 4);  
- }
+ 
 .abaut-list {
  display: flex;
  justify-content: center;
- }
+ }}*/
 .abaut-list-taytan{
  font-weight: 500;
  font-size: 20px;
@@ -345,11 +345,8 @@ img{
  margin-bottom: 8px;
  }
 
-.abaut-calk{
-    width: calc((100% - 72px) / 4);
-}
 .abaut-text {
- font-size: 16px;
+ 
  line-height: 1.5;
  letter-spacing: 0.02em;
  color: var(--second-slate-color);
