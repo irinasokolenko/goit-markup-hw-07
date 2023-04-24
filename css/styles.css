@@ -311,11 +311,11 @@ img{
  background: #F4F4FD;
  border-radius: 4px;
 }
-.sambol-defs-list {
+/*.sambol-defs-list {
     display: flex;
     justify-content: center;
     gap: 24px;
-}
+}*/
 
 .sambol-defs-icon {
  }
@@ -359,10 +359,11 @@ img{
  padding-top: 120px;
  padding-bottom: 120px;
  }
- .photo-comp-list{
+ /*.photo-comp-list{
     display: flex;
     gap: 24px;
- }
+ }*/
+
  /*.li-comp{
  width: calc((100% - 48px) / 3);
 }*/
@@ -380,6 +381,7 @@ img{
  margin-bottom: 72px;
  margin-left: auto;
  margin-right: auto;
+ text-align: center;
 }
  /*section 4*/
  .section-photo-person{

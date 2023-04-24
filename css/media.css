@@ -23,14 +23,18 @@
     .container{
         width: 480px;
     }
-    .photo-comp{
+    .photo-comp-list, .photo-comp-title{
         display: none;
     }
-    .photo-comp-list{
-        flex-direction: row;
-        flex-wrap: wrap;
-        gap: 24px;
-     }
+}
+/*section 2*/
+@media screen and (min-width: 480px){
+    .container{
+        width: 480px;
+    }
+    .sambol-defs-icon{
+        display: none;
+    }
 }
 
 
@@ -55,14 +59,18 @@
     .container{
         width: 768px;
     }
-    .photo-comp{
+    .photo-comp-list, .photo-comp-title{
         display: none;
     }
-    .photo-comp-list{
-           flex-direction: row;
-            flex-wrap: wrap;
-            gap: 24px;
-     }
+}
+/*section 2*/
+@media screen and (min-width: 768px){
+    .container{
+        width: 768px;
+    }
+    .sambol-defs-icon{
+        display: none;
+    }
 }
 
 
@@ -84,15 +92,28 @@
     .container{
         width: 1158px;
     }
-.photo-comp{
-    padding-top: 120px;
-    padding-bottom: 120px;
- }
+    .photo-comp-list{
+        display: flex;
+        gap: 24px;
+    }
+    .photo-comp-title{
+        display: block;
+    }
   .li-comp{
     width: calc((100% - 48px) / 3);
    }
 }
  /*section 2*/
+ @media screen and (min-width: 1158px){
+    .container{
+        width: 1158px;
+    }  
+    .sambol-defs-list {
+        display: flex;
+        justify-content: center;
+        gap: 24px;
+ }
+}
  
 /*section 4
 .section-photo-person
