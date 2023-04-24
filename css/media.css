@@ -23,7 +23,7 @@
     .container{
         width: 480px;
     }
-    .li-comp{
+    .photo-comp{
         display: none;
     }
     .photo-comp-list{
@@ -32,14 +32,6 @@
         gap: 24px;
      }
 }
- /*section 2*/
- @media screen and (min-width: 480px){
-    .container{
-        width: 480px;
-    }
-    .sambol-defs{
-        display: none;
-    }
 
 
 
@@ -63,16 +55,15 @@
     .container{
         width: 768px;
     }
-    .li-comp{
+    .photo-comp{
         display: none;
     }
     .photo-comp-list{
-        flex-direction: row;
+           flex-direction: row;
             flex-wrap: wrap;
             gap: 24px;
      }
 }
- /*section 2*/
 
 
 
@@ -102,10 +93,7 @@
    }
 }
  /*section 2*/
-
-
-
-
+ 
 /*section 4
 .section-photo-person
 .person-title (одни параметры)/
