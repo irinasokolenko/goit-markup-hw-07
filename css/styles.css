@@ -363,9 +363,9 @@ img{
     display: flex;
     gap: 24px;
  }
- .li-comp{
+ /*.li-comp{
  width: calc((100% - 48px) / 3);
-}
+}*/
  
  .photo-comp-title {
  font-weight: 700;
