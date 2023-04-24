@@ -21,9 +21,6 @@
     .container{
         width: 480px;
     }
-    .photo-comp-list{
-        display: none;
-    }
     .li-comp{
         display: none;
     }
@@ -49,9 +46,6 @@
 @media screen and (min-width: 768px){
     .container{
         width: 768px;
-    }
-    .photo-comp-list{
-        display: none;
     }
     .li-comp{
         display: none;
