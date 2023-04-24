@@ -32,6 +32,14 @@
         gap: 24px;
      }
 }
+ /*section 2*/
+ @media screen and (min-width: 480px){
+    .container{
+        width: 480px;
+    }
+    .sambol-defs{
+        display: none;
+    }
 
 
 
@@ -64,6 +72,7 @@
             gap: 24px;
      }
 }
+ /*section 2*/
 
 
 
@@ -92,6 +101,11 @@
     width: calc((100% - 48px) / 3);
    }
 }
+ /*section 2*/
+
+
+
+
 /*section 4
 .section-photo-person
 .person-title (одни параметры)/
