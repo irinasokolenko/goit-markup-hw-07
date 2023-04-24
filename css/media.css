@@ -10,88 +10,48 @@
     .container{
         width: 480px;
     }
-}
-.abaut{
-    @media screen and (min-width: 480px){
-     padding-top: 96px;
-     padding-bottom: 96px;
+    .person-list{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 72px;
+    }    
+    .photo-comp{
+     display: none;
     }
 }
+
 
 
 @media screen and (min-width: 768px){
     .container{
         width: 768px;
-        display: flex;
-        flex-wrap: wrap;
-        margin: -15px;
     }
-}
-.person-item {
-    @media screen and (min-width: 768px){
-   flex-basis: 50%;
-   flex-basis: calc((100% - 30px) / 2 )
- 
- }
-}
-.section-photo-person{
-    @media screen and (min-width: 768px){
-        padding-top: 96px;
-        padding-bottom: 96px;   
-    }   
-}
-.person-list{
-    @media screen and (min-width: 768px){
-        display: flex;
+    .person-list{
+        flex-direction: row;
         flex-wrap: wrap;
-        gap: 24px;   
-    }   
-}
-.photo-comp, .sambol-defs-icon{
-    @media screen and (max-width: 768px){
+        gap: 64px 24px;
+    }
+    .person-item{
+        flex-basis: calc((100% - 30px) / 2 )    
+    }
+    .photo-comp{
         display: none;
-    }
+       }
 }
-.abaut-list{
-    @media screen and (max-width: 768px){
-        gap: 24px;   
-    }
-}
-
-
 
 
  @media screen and (min-width: 1158px){
     .container{
     width: 1158px;
 }
-}
-.person-item {
-    @media screen and (min-width: 1158px){
-   flex-basis: 100%;
-   flex-basis: calc((100% - 72px) / 4);
- }
-}
-.section-photo-person{
-    @media screen and (min-width: 1158px){
-        padding-top: 120px;
-        padding-bottom: 120px;   
-    }   
-}
 .person-list{
-    @media screen and (min-width: 1158px){
-        display: flex;
-        flex-wrap: wrap;
-        gap: 32px;   
-    }   
-}
-.abaut-list{
-    @media screen and (min-width: 1158px)
-    display: flex;
     gap: 24px;
 }
-
-
+.person-item{
+    flex-basis: calc((100% - 72px) / 4);   
+}
+}
 /*section 4
 .section-photo-person
 .person-title (одни параметры)/
