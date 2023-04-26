@@ -588,10 +588,10 @@ color:var(--fon-cloud-color)
     letter-spacing: 0.02em;
  }
   .online-form {
-   /* display: flex;
+    display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items: center;*/
+    align-items: center;
 }
 .online-field {
     position: relative;
@@ -639,7 +639,7 @@ color:var(--fon-cloud-color)
     margin-left: 16px;
 }
 .online-btn {
-    /*display: flex;
+    display: flex;
     width: 165px;
     height: 40px;
     background-color: #4D5AE5;
@@ -656,7 +656,7 @@ color:var(--fon-cloud-color)
     letter-spacing: 0.04em;
     border: 0;
     transition-property: background-color;
-    color: #FFFFFF;*/
+    color: #FFFFFF;
 
 }
 

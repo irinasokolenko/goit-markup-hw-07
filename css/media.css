@@ -72,8 +72,7 @@
      margin-top: 0;
      box-shadow: none;
     }
-    }
-       
+           
 /*section 5*/
 @media screen and (min-width: 480px){
     .container{
@@ -153,14 +152,31 @@
         width: 582px;
         gap: 72px 24px;
         justify-content: flex-start;
-      
+    }
+    .footer-bottom-web{
+        justify-content: flex-start;
+    }
+    .footer-bottom-text{
+        width: 264px;
+    }
+    .footer-soc-list{
+        display: flex;
+        gap: 16px;
+        margin-top: 16px;
+    }
+    .input-name{
+        text-align: left;
     }
     .online-form {
-    flex-wrap: nowrap;
-    align-items: baseline;
-    gap: 24px;
+        flex-wrap: nowrap;
+     align-items: baseline;
+     gap: 24px;
     }
-    .online-btn{
+    .social-media{
+
+    }
+    
+    .btn{
         width: 165px;
         height: 40px;
         display: flex;
