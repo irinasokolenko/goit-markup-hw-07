@@ -12,9 +12,27 @@
 @media screen and (min-width: 480px){
     .footer-container{
        padding: 96px;
+       display: flex;
+       flex-wrap: wrap;
+       row-gap: 72px;
+       justify-content: center;
+    }
+    .footer-bottom-web{
+        display: flex;
+        justify-content: center;
+    }
+    .social-name{
+     margin: 0;
+     color: #FFFFFF;
+     font-weight: 500;
+     text-align: center;
+}
+
+
     }
     .footer-bottom-text{
         width: 268px;
+        margin-top: 17px;
     }
     .social-name{
         text-align: center;
@@ -34,6 +52,14 @@
         align-items: baseline;
         gap: 16px;
         margin-top: 16px;
+    }
+    .online-form{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: baseline;
+        gap: 16px;
+        margin-top: 16px
     }
     .footer-bottom-web{
         width: 165px;
@@ -127,8 +153,7 @@
         width: 582px;
         gap: 72px 24px;
         justify-content: flex-start;
-        display: flex;
-        flex-wrap: wrap;
+      
     }
     .online-form {
     flex-wrap: nowrap;
