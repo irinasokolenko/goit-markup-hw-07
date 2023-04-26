@@ -52,7 +52,7 @@ img{
      rgba(46, 47, 66, 0.16), 0px 1px 6px
      rgba(46, 47, 66, 0.08);
  }
- .header{
+ /*.header{
     color: #404BBF;
     padding-top: 24px;
     padding-bottom: 24px;
@@ -62,7 +62,8 @@ img{
  }
  .header:hover,
  .header:focus{color: #404BBF;
-}
+}*/
+
 .curent{
     position: relative;
 }
@@ -569,9 +570,9 @@ color:var(--fon-cloud-color)
     display: flex;
     gap: 16px;
 }
- .social-media{
+ /*.social-media{
   margin-left: 120px;
-}   
+}*/   
 .social-name{
     font-weight:500;
     font-size: 16px;
