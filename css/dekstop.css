@@ -69,10 +69,8 @@
         padding-top: 120px;   
     }
     .customers-soc-list{
-        display: flex;
-        flex-wrap: nowrap;
-        justify-content: center;
-        margin-top: 72px;
+     flex-wrap: nowrap;
+     
     }
     }
     
@@ -87,16 +85,7 @@
     .person-item{
         flex-basis: calc((100% - 72px) / 4)   
     }
-    .person-title {
-        font-weight: 700;
-        font-size: 36px;
-        line-height: 1.11;
-        text-align: center;
-        letter-spacing: 0.02em;
-        text-transform: capitalize;
-        color: var(--second-title-color);
-        margin-bottom: 72px;
-        }
+    
 }
       /*section 3*/
 @media screen and (min-width: 1158px){
@@ -108,7 +97,7 @@
         gap: 24px;
     }
     .photo-comp-title{
-        display: block;
+       display: block;
     }
   .li-comp{
     width: calc((100% - 48px) / 3)
