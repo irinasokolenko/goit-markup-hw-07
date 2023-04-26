@@ -87,9 +87,6 @@
      margin-top: 0;
      box-shadow: none;
     }
-    .online-btn {
- margin-top: 72px;
-    }
 }
            
 /*section 5*/
@@ -189,10 +186,13 @@
     .container{
         width: 582px;
         gap: 72px 24px;
-        justify-content: flex-start;
     }
     .footer-bottom-web{
         justify-content: flex-start;
+    }
+    .footer-bottom-link{
+        flex-direction: row;
+        flex-wrap: wrap;
     }
     .footer-bottom-text{
         width: 264px;
@@ -340,6 +340,11 @@
         border: 0;
         transition-property: background-color;
         color: #FFFFFF;
+}
+.online-field {
+    position: relative;
+    margin-left: auto;
+    margin-bottom: 132px;
 }
 }
 

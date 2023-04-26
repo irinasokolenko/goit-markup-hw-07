@@ -596,8 +596,8 @@ color:var(--fon-cloud-color)
 }
 .online-field {
     position: relative;
-    margin-left: auto;
-    margin-bottom: 132px;
+   /* margin-left: auto;
+    margin-bottom: 132px;*/
 }
 .input-name {
 }
