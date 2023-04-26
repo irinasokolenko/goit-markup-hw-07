@@ -185,7 +185,6 @@
  @media screen and (min-width: 768px){
     .footer-container{
         width: 768px;
-        gap: 72px 24px;
     }
     .footer-bottom-web{
         display: flex;
@@ -195,8 +194,7 @@
         font-size: 16px;
         line-height: 1.5;
         color: #FFFFFF;
-        margin-top: 0;
-        margin-left: 24px;
+        margin-top: 16px;
     }
     .online-input{
         width: 264px;
@@ -236,26 +234,18 @@
         margin-right: 108px;
     }
         .online-btn{
-        width: 165px;
-        height: 40px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 16px;
-        padding: 0;
-        margin-top: 0;
-        box-shadow: none;
+   
     }
     .btn {
         width: 165px;
-    height: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 16px;
-    padding: 0;
-    margin-top: 0;
-    box-shadow: none;       
+     height: 40px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 16px;
+     padding: 0;
+     margin-top: 0;
+     box-shadow: none;       
     }
     }
 
