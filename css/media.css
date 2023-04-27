@@ -345,64 +345,22 @@ color:var(--second-title-color);
 .customers-soc-link:focus{
     border-color: #404BBF;
     color: #404BBF;
-
 }
-/*footer*/
-@media screen and (min-width: 480px){
-    .footer-container{
-       padding: 96px;
-       display: flex;
-       flex-wrap: wrap;
-       row-gap: 72px;
-       justify-content: center;
-    }
-    
-    .social-name{
-     margin: 0;
-     color: #FFFFFF;
-     font-weight: 500;
-     text-align: center;
-     }
-    
-    .footer-bottom-text{
-        width: 268px;
-        margin-top: 17px;
-    }
-    .social-name{
-        text-align: center;
-        margin-top: 72px;
-    }
-    .footer-soc-list{
-        display: flex;
-        gap: 16px;
-        margin-top: 16px;
-    }
-    .input-name{
-     text-align: center;
-     margin-top: 72px; 
-    }
-    .footer-bottom-link{
-        flex-direction: column;
-    }
-        .online-form{
-            width: 398px;
-            height: 40px;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: baseline;
-        gap: 16px;
-        margin-top: 16px;
-    }
-    .online-form{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: baseline;
-        gap: 16px;
-        margin-top: 16px
-    }
- }
+ 
+ .social-name{
+  margin: 0;
+  color: #FFFFFF;
+  font-weight: 500;
+  text-align: center;
+  }
+ 
+
+  /*----footer----r*/
+ 
+}
+
+
+
            
 
  
