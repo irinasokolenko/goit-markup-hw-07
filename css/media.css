@@ -169,6 +169,57 @@
 .hero-btn {
     margin-top: 72px;
 }
+.abaut{
+    padding-top: 96px;
+    padding-bottom: 96px;
+}
+.abaut-container{
+    margin: 0 auto;
+    padding: 0 16px;
+    max-width: 428px;
+}
+.main-list{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+ /*section 2*/
+.abaut-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 72px;
+}
+.sambol-defs{
+    display: none;
+}
+.abaut-list-taytan{
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 1.11;
+}
+.the-text{
+    margin-top: 8px;
+    font-weight: 500;
+}
+.sambol-defs-list {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
  }
 /*footer*/
 @media screen and (min-width: 480px){
@@ -268,34 +319,8 @@
       
     }
 }
-/*section 2*/
-@media screen and (min-width: 428px){
-    .container{
-        width: 396px;
-    }
-    .abaut{
-        padding-top: 96px;
-        padding-bottom: 96px;
-        align-items: center;
-    }
-    .sambol-defs{
-        display: none;
-    }
-    .abaut-list-taytan{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    .sambol-defs-list {
-        display: block;
-        align-items: center;
-        justify-content: center;
-        flex: none;
-        order: 1;
-        align-self: stretch;
-        flex-grow: 0;
-              
-    }
+
+   
     .abaut-text{
         margin-bottom: 72px;
         justify-content: center;
