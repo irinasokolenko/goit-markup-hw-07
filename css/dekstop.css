@@ -1,21 +1,11 @@
+.container{
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
-
-
-
-/*---header---*/
-@media screen and (min-width: 1158px){
-    .header{
-        color: #404BBF;
-        padding-top: 24px;
-        padding-bottom: 24px;
-        transition-property: color;
-        transition-duration: 250ms;
-        transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
-     }
-     .header:hover,
-     .header:focus{color: #404BBF;
-     }
-     }
     /*footer*/
     @media screen and (min-width: 1158px){
         .footer-container{
@@ -98,6 +88,7 @@
     }
     .photo-comp-title{
        display: block;
+       margin-bottom: 8px;
     }
   .li-comp{
     width: calc((100% - 48px) / 3)

@@ -1,22 +1,9 @@
-/*---header---*/
-@media screen and (min-width: 768px){
-    .container{
-        width: 480px;
-       display: flex;
-       align-items: center;
-       justify-content: space-between;  
-    }   
-    .header{
-    color: #404BBF;
-    padding-top: 24px;
-    padding-bottom: 24px;
-    transition-property: color;
-    transition-duration: 250ms;
-    transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
- }
- .header:hover,
- .header:focus{color: #404BBF;
- }
+.container{
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /*footer*/
