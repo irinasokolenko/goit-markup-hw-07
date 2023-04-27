@@ -63,9 +63,101 @@
     transition-duration: 250ms;
     transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
     }
+    .nav-mobile {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    .logo {
+        font-family: 'Raleway', sans-serif;
+        font-size: 18px;
+        color: var(--main-title-color);
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        font-weight: 800;
+        text-transform: uppercase;
+    }
+    .logo-spun{
+        color: #2E2F42;
+    }
+    .hamburger {
+        border: none;
+        padding: 0;
+        background-color: transparent;
+        transition-duration: 250ms;
+        transition-timing-function: #2E2F42;
+        transition-property: transform;
+    }
+     .mobile-menu {
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 100;
 }
-
-
+.menu-close-btn {
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 24px;
+    height: 24px;
+    border: 1px solid rgba(46, 47, 66, .1);
+    background-color: rgba(231, 233, 252, .1);
+}
+.close-icon {
+    fill: var(--navy-blue-color);
+    opacity: 1;
+    transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function: var(--main-title-color);
+}
+.menu-list{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.menu-soc-list {
+    display: flex;
+    gap: 56px;
+    margin-top: 48px;
+}
+.menu-soc-item {
+    width: 40px;
+    height: 40px;
+}
+.menu-soc-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    -webkit-border-radius: 50%;
+    background-color: var(--iris-color);
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: #2E2F42;
+}
+}
+@media (min-device-pixel-ratio: 2),
+(-webkit-min-device-pixel-ratio: 2),
+ (min-resolution: 192dpi),
+ (min-resolution: 2dppx){
+.hero {
+    background: linear-gradient(var(#2E2F42),
+    var(#2E2F42)), url(../images/landing/hero/hero-bg-mobile@2x.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    padding: 112px 0;
+    text-align: center;
+}
+.hero-container{
+    margin: 0 auto;
+    max-width: 428px;
+}
+}
 /*footer*/
 @media screen and (min-width: 480px){
     .footer-container{
