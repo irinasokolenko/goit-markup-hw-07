@@ -505,7 +505,7 @@ padding-bottom: 32px;
     color: #404BBF;
  }*/
  
- /*footer
+ /*footer*/
  .footer-container{
  background-color: var(--second-title-color);
  padding-top: 100px;
@@ -515,7 +515,7 @@ padding-bottom: 32px;
  display: flex;
  }
 
-.footer-bottom-web {
+/*.footer-bottom-web {
  font-family: "Raleway", sans-serif;
  font-style: normal;
  font-weight: 800;
@@ -526,7 +526,7 @@ padding-bottom: 32px;
  text-transform: uppercase;
  color: #4D5AE5;
  text-decoration: none;
- }
+ }*/
  .footer-studio {
 color:var(--fon-cloud-color)
  }
@@ -535,8 +535,8 @@ color:var(--fon-cloud-color)
     line-height: 24px;
     letter-spacing: 0.02em;
     color: var(--fon-cloud-color);
-    max-width: 264px;
-    margin-top: 17px;
+   /* max-width: 264px;
+    margin-top: 17px;*/
  }
 .footer-soc-item{
     width: 40px;
@@ -569,7 +569,7 @@ color:var(--fon-cloud-color)
     gap: 16px;
 }
  .social-media{
-  margin-left: 120px;
+ /* margin-left: 120px;*/
 }   
 .social-name{
     font-weight:500;
@@ -594,7 +594,7 @@ color:var(--fon-cloud-color)
 }
 .online-field {
     position: relative;
-    margin-left: 80px;
+    /*margin-left: 80px;*/
 }
 .input-name {
 }
@@ -647,7 +647,7 @@ color:var(--fon-cloud-color)
    .online-btn:hover,
    .online-btn:focus { 
        background-color: var(--second-okean-color);
-   }*/
+   }
 
 
 
