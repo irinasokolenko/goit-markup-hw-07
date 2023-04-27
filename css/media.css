@@ -1,8 +1,10 @@
 /*----section # 4-----*/
 .container{
-    margin: 0 auto;
-    padding: 0 16px;
-    max-width: 428px;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /*.header*/
@@ -356,23 +358,101 @@ color:var(--second-title-color);
  
 
   /*----footer----r*/
-  .footer-container
-  .footer-bottom-link
-  .footer-bottom-web
-  .footer-studio
-  .footer-bottom-text
-  .footer-soc-item
-  .footer-soc-link
+  .footer-container{
+    background-color: var(--second-title-color);
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
+  .footer-bottom-link{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 72px;
+    justify-content: center;
+  }
+  .footer-bottom-web{
+    display: flex;
+    justify-content: center;
+  }
+  .footer-studio{
+    color:var(--fon-cloud-color);
+  }
+  .footer-bottom-text{
+    width: 268px;
+    margin-top: 17px;
+  }
+   .social-name{
+    margin: 0;
+    color: #FFFFFF;
+    font-weight: 500;
+    text-align: center;
+  }
+  .footer-soc-item{
+    width: calc((100% - 24px) / 4)
+  }
+  .footer-soc-link{
+    width: 100%;
+   height: 100%;
+   border-radius: 50%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-color:var(--main-title-color);
+   transition-duration: 250ms;
+   transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
+   transition-property: background-color;
+}
+.footer-soc-link:hover,
+.footer-soc-link:focus{
+  background-color: #31D0AA; 
+}
   .footer-soc-icon
-  .footer-soc-list
+  .footer-soc-list{
+    display: flex;
+    gap: 16px;
+    margin-top: 16px;
+  }
   .social-media
-  .social-name
-  .input-name
-  .online-form
+   .input-name{
+    margin: 0;
+    color: #FFFFFF;
+    font-weight: 500;
+    text-align: center;
+   }
+  .online-form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: baseline;
+    gap: 16px;
+    margin-top: 16px;
+  }
+  .online-label {
+    position: absolute;
+    top: 50%;
+    left: 16px;
+  }
+  .online-btn{
+   width: 165px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    padding: 0;
+    margin-top: 0;
+    box-shadow: none;
+}
+
   .online-field
   .input-name
-  .online-input
+  }
+   
+ @media screen and (min-width: 428px) and (max-width: 767px){
+.online-input {
+    width: 390px;
 }
+ }
+
 
 
 
