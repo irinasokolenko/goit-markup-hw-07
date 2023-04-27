@@ -356,7 +356,22 @@ color:var(--second-title-color);
  
 
   /*----footer----r*/
- 
+  .footer-container
+  .footer-bottom-link
+  .footer-bottom-web
+  .footer-studio
+  .footer-bottom-text
+  .footer-soc-item
+  .footer-soc-link
+  .footer-soc-icon
+  .footer-soc-list
+  .social-media
+  .social-name
+  .input-name
+  .online-form
+  .online-field
+  .input-name
+  .online-input
 }
 
 
