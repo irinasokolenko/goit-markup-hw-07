@@ -153,11 +153,23 @@
     padding: 112px 0;
     text-align: center;
 }
-.hero-container{
+.container{
     margin: 0 auto;
     max-width: 428px;
 }
+.hero-list{
+    max-width: 320px;
+    margin: 0 auto;
+    font-size: 36px;
+    color: #fff;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
 }
+.hero-btn {
+    margin-top: 72px;
+}
+ }
 /*footer*/
 @media screen and (min-width: 480px){
     .footer-container{
