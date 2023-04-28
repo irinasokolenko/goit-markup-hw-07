@@ -1,4 +1,4 @@
- /*:root{
+ :root{
  --main-title-color:#4D5AE5;
  --second-title-color:#2E2F42;
  --second-okean-color:#404BBF;
@@ -188,7 +188,7 @@ body {
 }
 
  /*section 1*/
- /*.hero {
+ .hero {
  background-color: var(--second-title-color);
  background-image: linear-gradient(rgba(46, 47, 66, 0.7),
   rgba(46, 47, 66, 0.7)),
@@ -295,7 +295,7 @@ body {
     pointer-events: none;
  }
  /*section 2*/
- /*.abaut {
+ .abaut {
  padding-top: 120px;
  align-items: center;
  }
@@ -356,7 +356,7 @@ body {
  color: var(--second-slate-color);
 }
  /*section 3*/
- /*.photo-comp{
+ .photo-comp{
  padding-top: 120px;
  padding-bottom: 120px;
  }
@@ -383,7 +383,7 @@ body {
  margin-right: auto;
 }
  /*section 4*/
- /*.section-photo-person{
+ .section-photo-person{
   background-color:var(--fon-cloud-color);
   padding-top: 120px;
   padding-bottom: 120px;
@@ -463,7 +463,7 @@ padding-bottom: 32px;
     transition: background-color 250ms linear, fill 250ms linear;
  }
  /*секция5*/
- /*.customers {
+ .customers {
      padding-bottom: 120px;
      padding-top: 120px;
         
@@ -506,7 +506,7 @@ padding-bottom: 32px;
  }
  
  /*footer*/
- /*.footer-container{
+ .footer-container{
  background-color: var(--second-title-color);
  padding-top: 100px;
  padding-bottom: 100px;
@@ -535,7 +535,7 @@ color:var(--fon-cloud-color)
     line-height: 24px;
     letter-spacing: 0.02em;
     color: var(--fon-cloud-color);
-    max-width: 264px;
+   max-width: 264px;
     margin-top: 17px;
  }
 .footer-soc-item{
@@ -647,11 +647,11 @@ color:var(--fon-cloud-color)
    .online-btn:hover,
    .online-btn:focus { 
        background-color: var(--second-okean-color);
-   }*/
+   }
 
 
 
-     /**button portfolio*
+     /*button portfolio*/
 
  .batton-portfolio{
  padding-top: 96px;

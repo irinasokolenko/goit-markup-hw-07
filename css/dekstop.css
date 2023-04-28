@@ -124,21 +124,21 @@
     padding: 100px 0;
 }
 
-.footer-container {
+.footer-bottom-link {
     flex-wrap: nowrap;
     gap: 0;
 }
 
-.footer-soc-container {
+.social-media {
     margin-left: 120px;
     margin-right: 80px;
 }
 
-.footer-input {
+.online-input {
     opacity: 1;
 }
 
-.footer-label {
+.online-label {
     color: #fff;
 }
 

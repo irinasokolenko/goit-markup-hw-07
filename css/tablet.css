@@ -146,25 +146,25 @@
     justify-content: flex-start;
 }
 
-.footer-text {
+.footer-bottom-text {
     width: 264px;
 }
 
-.footer-logo {
+.footer-bottom-web {
     justify-content: flex-start;
 }
 
-.footer-soc-text {
+.social-name{
     text-align: left;
 }
 
-.footer-form {
+.online-field-container {
     flex-wrap: nowrap;
     align-items: baseline;
     gap: 24px;
 }
 
-.footer-input {
+.online-input{
     width: 264px;
 }
 
