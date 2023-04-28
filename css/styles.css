@@ -97,6 +97,11 @@ section{
         line-height: 1.5;
         letter-spacing: 0.02em;
     }
+    .text-second{
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: var(--fon-cloud-color);
+    }
     
 
 .header {
