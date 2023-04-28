@@ -145,7 +145,7 @@
  (min-resolution: 2dppx){
 .hero {
     background: linear-gradient(var(#2E2F42),
-    var(#2E2F42)), url(../images/landing/hero/hero-bg-mobile@2x.jpg);
+    var(#2E2F42)), url(./imageshero-bg-mobile@2x.jpg);
     background-repeat: no-repeat;
     background-position: top center;
     background-size: cover;
@@ -190,6 +190,7 @@
     overflow: hidden;
 }
  /*section 2*/
+ @media screen and (min-width: 428px){
 .abaut-list{
     display: flex;
     flex-wrap: wrap;
@@ -217,6 +218,7 @@
     order: 1;
     align-self: stretch;
     flex-grow: 0;
+}
 }
 /*section 3*/
 .photo-comp {
