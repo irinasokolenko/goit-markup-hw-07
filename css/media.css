@@ -642,28 +642,28 @@ img {
     background-color: var(--navy-blue-color);
 }
 
-.footer-bottom-link {
+.footer-container {
     display: flex;
     flex-wrap: wrap;
     row-gap: 72px;
     justify-content: center;
 }
 
-.footer-bottom-web{
+.footer-logo {
     display: flex;
     justify-content: center;
 }
 
-.footer-studio {
+.footer-span {
     color: var(--cloud-color);
 }
 
-.footer-bottom-text {
+.footer-text {
     width: 268px;
     margin-top: 17px;
 }
 
-.social-name {
+.footer-soc-text {
     margin: 0;
 
     color: #FFFFFF;
@@ -707,7 +707,7 @@ img {
     background-color: var(--green-color);
 }
 
-.online-field {
+.footer-form {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -716,11 +716,11 @@ img {
     margin-top: 16px;
 }
 
-.online-form-field {
+.footer-form-field {
     position: relative;
 }
 
-.online-input {
+.footer-input {
     width: 80vw;
     height: 40px;
     border: 1px solid #fff;
@@ -744,12 +744,12 @@ img {
 }
 
 @media screen and (min-width: 428px) and (max-width: 767px) {
-    .online-input {
+    .footer-input {
         width: 390px;
     }
 }
 
-.online-label {
+.footer-label {
     position: absolute;
     top: 50%;
     left: 16px;
@@ -767,8 +767,8 @@ img {
     transition-property: transform;
 }
 
-.online-input:focus + .online-label,
-.online-input:not(:placeholder-shown) + .online-label {
+.footer-input:focus + .footer-label,
+.footer-input:not(:placeholder-shown) + .footer-label {
     transform: translate(-16px, -170%);
     -webkit-transform: translate(-16px, -170%);
     -moz-transform: translate(-16px, -170%);
@@ -776,7 +776,7 @@ img {
     -o-transform: translate(-16px, -170%);
 }
 
-.online-btn {
+.footer-btn {
     width: 165px;
     height: 40px;
 
@@ -789,8 +789,6 @@ img {
 
     box-shadow: none;
 }
-
-
 /** -----------------ORDER MODAL------------------ */ 
 
 .modal-backdrop {
