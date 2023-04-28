@@ -75,6 +75,29 @@ body {
 section{
     padding: 96px 0;
 }
+.is-hidden{
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
+}
+ .overflow-hidden{
+ overflow: hidden;
+}
+.main-list {
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--navy-blue-color);
+    }
+    .the-text{
+        margin-top: 8px;
+        color: var(--second-slate-color);
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+    }
+    
 
 .header {
     padding-top: 24px;
