@@ -939,6 +939,29 @@ transition-property: opacity, visibility, transform;
   overflow: hidden;
   }
 }
+@media screen and (max-height: 540px){
+    .modal{
+        display: flex;
+        height: 60vw;
+        align-items: center;
+        padding: 24px;
+    }
+    .modal-heading{
+        margin-right: 20px;
+    }
+    .comment{
+        display: none;
+    }
+    .modal-close-btn{
+        left:24px;
+    }
+     .practice-txt{
+        font-size: 8px;
+     }
+     .btn-send{
+        margin-top: 10px;
+     }
+}
 
 
     
