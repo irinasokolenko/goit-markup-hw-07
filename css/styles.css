@@ -390,7 +390,118 @@ transition-timing-function: var(--primary-timing-function);
  .menu-soc-link:focus {
  background-color: var(--second-okean-color);
 }
+/*hero*/
+ .hero-container {
+ padding: 0;
+ }
+ .hero {
+ padding: 112px 0;
+ text-align: center;
 
+ background: linear-gradient(var(--second-title-color)), var(--second-title-color);
+ 
+ url('../images/hero/hero-bg-mobile.jpg');
+ background-repeat: no-repeat;
+ background-position: top center;
+ background-size: cover;
+}
+@media (min-device-pixel-ratio: 2),
+(-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+	.hero {
+        background: linear-gradient(var(--second-title-color), var(#--second-title-color));
+        url('../images/hero/hero-bg@2x.jpg');
+        background-repeat: no-repeat;
+        background-position: top center;
+        background-size: cover;
+        }
+        }
+    .hero-list-heading{
+      max-width: 320px;
+      margin: 0 auto;
+      font-size: 36px;
+      color: #fff;
+      line-height: 1.11;
+      letter-spacing: 0.02em;
+      text-transform: capitalize;
+ }
+   .hero-btn {
+  margin-top: 72px;
+ }
+  /*abaut*/
+  .abaut{
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
+  .abaut-list{
+ display: flex;
+ flex-wrap: wrap;
+  justify-content: center;
+ gap: 72px;
+
+  }
+  .abaut-calk{
+    height: calc((100% - 216px) / 4);
+  }
+  .sambol-defs{
+    height: 112px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+
+ background-color:var(--fon-cloud-color);
+ border-radius: 4px;
+ -webkit-border-radius: 4px;
+ -moz-border-radius: 4px;
+ -ms-border-radius: 4px;
+ -o-border-radius: 4px;
+ }
+ .abaut-list-taytan{
+    font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+  line-height: 1.11;
+
+ }
+ .abaut-text{
+  margin-top: 8px;
+  font-weight: 500;
+ }
+ /*section-photo-person*/
+ .section-photo-person{
+    background-color: var(--fon-cloud-color);
+ }
+ .person-list{
+    display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   gap: 72px;
+   margin-top: 72px;
+ }
+ .team-item{
+    background-color: #FFFFFF;
+border-radius: 0px 0px 4px 4px;
+-webkit-border-radius: 0px 0px 4px 4px;
+-moz-border-radius: 0px 0px 4px 4px;
+-ms-border-radius: 0px 0px 4px 4px;
+-o-border-radius: 0px 0px 4px 4px;
+box-shadow: 0 1px 6px rgba(46, 47, 66, 0.08),
+0 1px 1px rgba(46, 47, 66, 0.16),
+0 2px 1px rgba(46, 47, 66, 0.08);
+}
+.team-item-content{
+ padding: 32px 16px;
+ text-align: center;
+}
+
+ 
+
+
+
+    
+
+    
     
         
         
