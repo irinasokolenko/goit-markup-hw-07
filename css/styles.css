@@ -1006,7 +1006,7 @@ transition-property: opacity, visibility, transform;
 
 
 
-.curent{
+/*.curent{
     position: relative;
 }
  .curent::after{
@@ -1130,7 +1130,7 @@ transition-property: opacity, visibility, transform;
     color: #404BBF;
 }
 
- /*section 1*/
+ /*section 1
  .hero {
  background-color: var(--second-title-color);
  background-image: linear-gradient(rgba(46, 47, 66, 0.7),
@@ -1236,8 +1236,8 @@ transition-property: opacity, visibility, transform;
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
- }
- /*section 2*/
+ }*/
+ /*section 2
  .abaut {
  padding-top: 120px;
  align-items: center;
@@ -1298,7 +1298,7 @@ transition-property: opacity, visibility, transform;
  letter-spacing: 0.02em;
  color: var(--second-slate-color);
 }
- /*section 3*/
+ /*section 3
  .photo-comp{
  padding-top: 120px;
  padding-bottom: 120px;
@@ -1324,8 +1324,8 @@ transition-property: opacity, visibility, transform;
  margin-bottom: 72px;
  margin-left: auto;
  margin-right: auto;
-}
- /*section 4*/
+}*/
+ /*section 4
  .section-photo-person{
   background-color:var(--fon-cloud-color);
   padding-top: 120px;
@@ -1404,8 +1404,8 @@ padding-bottom: 32px;
 .person-soc-icon{
     fill: #FFFFFF;
     transition: background-color 250ms linear, fill 250ms linear;
- }
- /*секция5*/
+ }*/
+ /*секция5
  .customers {
      padding-bottom: 120px;
      padding-top: 120px;
@@ -1446,9 +1446,9 @@ padding-bottom: 32px;
 .customers-soc-link:focus{
     border-color: #404BBF;
     color: #404BBF;
- }
+ }*/
  
- /*footer*/
+ /*footer
  .footer-container{
  background-color: var(--second-title-color);
  padding-top: 100px;
@@ -1590,7 +1590,7 @@ color:var(--fon-cloud-color)
    .online-btn:hover,
    .online-btn:focus { 
        background-color: var(--second-okean-color);
-   }
+   }*/
 
 
 
@@ -1660,6 +1660,7 @@ color:var(--fon-cloud-color)
     position: relative;
     overflow: hidden;
 }
+/*
 .list-link-link:hover .portfolio-cover-text,
 .list-link-link:focus .portfolio-cover-text{
     transform: translateY(0%);

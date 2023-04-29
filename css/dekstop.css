@@ -8,7 +8,7 @@
     padding: 120px 0;
 }
 
-/** -----------------HEADER------------------ */
+/*----header---- */
 
 .header {
     padding: 25px 0;
@@ -31,13 +31,13 @@
     display: none;
 }
 
-/** -----------------HERO------------------ */
+/*---hero---*/
 
 .hero {
     padding: 188px 0;
     
-    background: linear-gradient(var(--grey-color), var(--grey-color)),
-                url('../images/landing/hero/hero-bg.jpg');
+    background: linear-gradient(var(#2E2F42B2), var(#2E2F42B2)),
+                url('../images/hero/hero-bg.jpg');
     background-repeat: no-repeat;
     background-size: 1440px;
     background-position: center;
@@ -49,8 +49,8 @@
        (min-resolution: 2dppx) {
 
         .hero {
-            background: linear-gradient(var(--grey-color), var(--grey-color)),
-                    url('../images/landing/hero/hero-bg@2x.jpg');
+            background: linear-gradient(var(#2E2F42B2), var(#2E2F42B2)),
+                    url('../images/hero/hero-bg@2x.jpg');
             background-repeat: no-repeat;
             background-size: 1440px;
             background-position: center;
@@ -61,7 +61,7 @@
     margin-top: 48px;
 }
 
-/** -----------------ADVANTAGES------------------ */
+/*--abaut--*/
 
 .abaut {
     padding-bottom: 0;
@@ -93,16 +93,16 @@
     font-weight: 400;
 }
 
-/** -----------------ABOUT------------------*/
+/*--ABOUT---
 
 .photo-comp-list {
     display: flex;
     justify-content: center;
     gap: 24px;
     margin-top: 72px;
-}
+}*/
 
-/** -----------------TEAM------------------*/
+/*---TEAM---*/
 
 .mob-conteiner {
     padding: 0 16px;
@@ -112,13 +112,13 @@
     flex-wrap: nowrap;
 }
 
-/** -----------------CUSTOMERS------------------ */
+/*-------CUSTOMERS--- */
 
 .customers-soc-list {
     flex-wrap: nowrap;
 }
 
-/** -----------------FOOTER------------------ */
+/*---footer---- */
 
 .footer {
     padding: 100px 0;
