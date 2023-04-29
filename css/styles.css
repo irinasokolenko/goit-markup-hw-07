@@ -152,7 +152,7 @@ section{
      rgba(46, 47, 66, 0.16), 0px 1px 6px
      rgba(46, 47, 66, 0.08);
  }
- .header{
+ /*.header{
     color: #404BBF;
     padding-top: 24px;
     padding-bottom: 24px;
@@ -162,7 +162,20 @@ section{
  }
  .header:hover,
  .header:focus{color: #404BBF;
+}*/
+.logo{
+font-family: 'Raleway', sans-serif;
+font-size: 18px;
+color: var(--iris-color);
+line-height: 1.17;
+letter-spacing: 0.03em;
+font-weight: 800;
+text-transform: uppercase;
 }
+.logo-span{
+    color:var(--second-title-color)
+}
+
 .curent{
     position: relative;
 }
