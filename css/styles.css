@@ -870,6 +870,18 @@ transition-property: opacity, visibility, transform;
     transition-timing-function: var(--primary-timing-function);
     transition-property: fill;
     }
+    .checkbox-privacy{
+        display: flex;
+       align-items: center;
+       gap: 8px;
+       margin-top: 16px;
+       user-select: none;
+    }
+    .modal-textarea{
+        min-height: 120px;
+        padding: 8px 16px;
+       resize: none;
+    }
     
             
         
