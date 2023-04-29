@@ -882,6 +882,52 @@ transition-property: opacity, visibility, transform;
         padding: 8px 16px;
        resize: none;
     }
+    .check-icon{
+        width: 16px;
+       height: 16px;
+       border: 1px solid #2E2F42;
+       padding: 4px 3px;
+       background-image: url('../images/icon-check.svg');;
+       background-size: 10px 8px;
+       background-position: center;
+       
+       background-repeat: no-repeat;
+     background-origin: border-box;
+
+
+     border-radius: 2px;
+     -webkit-border-radius: 2px;
+     -moz-border-radius: 2px;
+     -ms-border-radius: 2px;
+     -o-border-radius: 2px;
+
+
+     transition-duration: 250ms;
+     transition-timing-function: var(--primary-timing-function);
+     transition-property: background-color, border;
+
+    }
+    .input-check:checked + .check-icon{
+        border-color:var(--main-title-color) ;
+        background-color: var(--main-title-color);
+    }
+    .policy{
+        margin-left: 4px;
+        text-decoration: underline;
+        color: #4D5AE5;
+}
+.btn-send{
+    display: block;
+    width: 169px;
+    margin: auto;
+    margin-top: 24px;
+}
+@media screen and (max-width: 1157px){
+    
+}
+
+
+    
     
             
         
