@@ -6,6 +6,9 @@
  --main-white-color: #FFFFFF;
  --footer-color: #E7E9FC;
  --fon-cloud-color:#F4F4FD;
+--primary-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+--semi-white-color: rgba(255, 255, 255, .6);
+
  }
 p,h1,h2,h3,h4,h5,h6{
     margin: 0;
@@ -102,7 +105,44 @@ section{
         letter-spacing: 0.02em;
         color: var(--fon-cloud-color);
     }
-    
+    .label-block {
+        display: block;
+        font-size: 12px;
+        line-height: 1.17;
+        letter-spacing: 0.04em;
+        color: #8E8F99;
+        transition-duration: 250ms;
+        transition-timing-function: var(--primary-timing-function);
+        transition-property: transform;
+    }
+    .btn-send{
+     padding: 16px 32px;
+     border: none;
+
+     font-family: 'Roboto', sans-serif;
+     color: #fff;
+     line-height: 1.5;
+     background-color: var(--iris-color);
+     letter-spacing: 0.04em;
+     font-weight: 500;
+     font-size: 16px;
+
+     border-radius: 4px;
+     -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+     -ms-border-radius: 4px;
+     -o-border-radius: 4px;
+     cursor: pointer;
+     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+     transition-property: background-color;
+     transition-duration: 250ms;
+     transition-timing-function: var(--primary-timing-function);
+    }
+    .btn-send:hover,
+    .btn-send:focus{
+        background-color: #404BBF;
+    }
+/*header*/ 
 
 .header {
     padding-top: 24px;
