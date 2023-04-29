@@ -8,17 +8,17 @@
     padding: 120px 0;
 }
 
-/*----header---- */
+/** -----------------HEADER------------------ */
 
 .header {
     padding: 25px 0;
 }
 
-.header-link {
+.header-nav {
     gap: 76px;
 }
 
-.header-address-list  {
+.address-list {
     flex-direction: row;
     gap: 40px;
 }
@@ -31,13 +31,13 @@
     display: none;
 }
 
-/*---hero---*/
+/** -----------------HERO------------------ */
 
 .hero {
     padding: 188px 0;
     
-    background: linear-gradient(var(#2E2F42B2), var(#2E2F42B2)),
-                url('../images/hero/hero-bg.jpg');
+    background: linear-gradient(var(--grey-color), var(--grey-color)),
+                url('../images/landing/hero/hero-bg.jpg');
     background-repeat: no-repeat;
     background-size: 1440px;
     background-position: center;
@@ -49,8 +49,8 @@
        (min-resolution: 2dppx) {
 
         .hero {
-            background: linear-gradient(var(#2E2F42B2), var(#2E2F42B2)),
-                    url('../images/hero/hero-bg@2x.jpg');
+            background: linear-gradient(var(--grey-color), var(--grey-color)),
+                    url('../images/landing/hero/hero-bg@2x.jpg');
             background-repeat: no-repeat;
             background-size: 1440px;
             background-position: center;
@@ -61,26 +61,26 @@
     margin-top: 48px;
 }
 
-/*--abaut--*/
+/** -----------------ADVANTAGES------------------ */
 
-.abaut {
+.advantages {
     padding-bottom: 0;
 }
 
-.abaut-container {
+.advantages-container {
     padding: 0;
 }
 
-.abaut-list {
+.advantages-list {
     flex-wrap: nowrap;
     gap: 24px;
 }
 
-.abaut-calk {
+.advantages-item {
     height: calc((100% - 72px) / 4);
 }
 
-.abaut-list-taytan {
+.advantages-item-heading {
     margin-top: 8px;
 
     font-size: 20px;
@@ -89,56 +89,71 @@
 
 }
 
-.abaut-text{
+.advantages-text {
     font-weight: 400;
 }
 
-/*--ABOUT---
+/** -----------------ABOUT------------------*/
 
-.photo-comp-list {
+.about-list {
     display: flex;
     justify-content: center;
     gap: 24px;
     margin-top: 72px;
-}*/
+}
 
-/*---TEAM---*/
+/** -----------------TEAM------------------*/
 
-.mob-conteiner {
+.team-container {
     padding: 0 16px;
 }
 
-.person-item {
+.team-list {
     flex-wrap: nowrap;
 }
 
-/*-------CUSTOMERS--- */
+/** -----------------CUSTOMERS------------------ */
 
-.customers-soc-list {
+.customers-list {
     flex-wrap: nowrap;
 }
 
-/*---footer---- */
+/** -----------------FOOTER------------------ */
 
 .footer {
     padding: 100px 0;
 }
 
-.footer-bottom-link {
+.footer-container {
     flex-wrap: nowrap;
     gap: 0;
 }
 
-.social-media {
+.footer-soc-container {
     margin-left: 120px;
     margin-right: 80px;
 }
 
-.online-input {
+.footer-input {
     opacity: 1;
 }
 
-.online-label {
+.footer-label {
     color: #fff;
 }
 
+/*? -----------------PORTFOLIO PAGE------------------  */
+
+.products {
+    padding-top: 100px;
+}
+
+.products-list {
+    margin-top: 72px;
+    gap: 48px 24px;
+    justify-content: center;
+}
+
+.products-item {
+    flex-basis: calc((100% - 48px) / 3);
+}
