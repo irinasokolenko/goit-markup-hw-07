@@ -443,9 +443,7 @@ img {
 
 .hero {
     padding: 112px 0;
-
     text-align: center;
-
     background: linear-gradient(var(--grey-color), var(--grey-color))
     url('../images/lending/hero/hero-bg-mobile.png.png');
     background-repeat: no-repeat;
@@ -457,8 +455,7 @@ img {
        (-webkit-min-device-pixel-ratio: 2),
        (min-resolution: 192dpi),
        (min-resolution: 2dppx) {
-
-            .hero {
+            .hero{
                 background: linear-gradient(var(--grey-color), var(--grey-color))
                 url('../images/lending/hero/hero-bg-mobile@2x.png.img');
                 background-repeat: no-repeat;
