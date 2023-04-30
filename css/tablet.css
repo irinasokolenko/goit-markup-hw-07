@@ -69,8 +69,8 @@
 .hero {
     padding: 112px 0;
 
-    background: linear-gradient(var(--grey-color), var(--grey-color))
-    url('../images/lending/hero/hero-bg-tablet.jpg');
+    background: linear-gradient(var(--grey-color), var(--grey-color)),
+                url('../images/landing/hero/hero-bg-tablet.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -82,8 +82,8 @@
         (min-resolution: 2dppx) {
 
             .hero {
-                background: linear-gradient(var(--grey-color), var(--grey-color))
-                url('../images/lending/hero/hero-bg-tablet@2x.jpg');
+                background: linear-gradient(var(--grey-color), var(--grey-color)),
+                            url('../images/landing/hero/hero-bg-tablet@2x.jpg');
                 background-repeat: no-repeat;
                 background-size: cover;
                 background-position: center;

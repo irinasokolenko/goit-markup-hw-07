@@ -36,8 +36,8 @@
 .hero {
     padding: 188px 0;
     
-    background: linear-gradient(var(--grey-color), var(--grey-color))
-    url('../images/lending/hero/hero-bg.jpg');
+    background: linear-gradient(var(--grey-color), var(--grey-color)),
+                url('../images/landing/hero/hero-bg.jpg');
     background-repeat: no-repeat;
     background-size: 1440px;
     background-position: center;
@@ -49,8 +49,8 @@
        (min-resolution: 2dppx) {
 
         .hero {
-            background: linear-gradient(var(--grey-color), var(--grey-color))
-            url('../images/lending/hero/hero-bg@2x.jpg');
+            background: linear-gradient(var(--grey-color), var(--grey-color)),
+                    url('../images/landing/hero/hero-bg@2x.jpg');
             background-repeat: no-repeat;
             background-size: 1440px;
             background-position: center;
