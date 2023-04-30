@@ -14,7 +14,7 @@
     --semi-white-color: rgba(255, 255, 255, .6);
 }
 
-/** -----------------RESET------------------ */
+/** --- */
 
 body {
     margin: 0;
@@ -52,7 +52,7 @@ img {
     height: auto;
 }
 
-/** -----------------UTILITIES------------------ */
+/** ------ */
 
 .container {
     margin: 0 auto;
@@ -89,7 +89,7 @@ img {
     overflow: hidden;
 }
 
-/** -----------------ELEMENTS------------------ */
+/** ----- */
 
 .section-heading {
     font-size: 36px;
@@ -446,7 +446,8 @@ img {
 
     text-align: center;
 
-    background: linear-gradient(var(--grey-color), var(--grey-color)), url('../images/landing/hero/hero-bg-mobile.jpg');
+    background: linear-gradient(var(--grey-color), var(--grey-color))
+    url('../images/lending/hero/hero-bg-mobile.jpg');
     background-repeat: no-repeat;
     background-position: top center;
     background-size: cover;
@@ -458,8 +459,8 @@ img {
        (min-resolution: 2dppx) {
 
             .hero {
-                background: linear-gradient(var(--grey-color), var(--grey-color)),
-                url('../images/landing/hero/hero-bg-mobile@2x.jpg');
+                background: linear-gradient(var(--grey-color), var(--grey-color))
+                url('../images/lending/hero/hero-bg-mobile@2x.jpg');
                 background-repeat: no-repeat;
                 background-position: top center;
                 background-size: cover;
