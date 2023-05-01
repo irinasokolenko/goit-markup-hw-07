@@ -1679,4 +1679,5 @@
     <div id="js-global-screen-reader-notice" class="sr-only" aria-live="polite" ></div>
   </body>
 </html>
-
+<svg class="icon icon-icon-crossmark"><use xlink:href="#icon-icon-crossmark"></use></svg>
+<svg class="icon icon-hamburger"><use xlink:href="#icon-hamburger"></use></svg>
