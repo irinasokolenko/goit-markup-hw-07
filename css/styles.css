@@ -356,7 +356,27 @@ body {
       max-width: 1158px;
     } 
 } 
-
+.header-address {
+    font-style: normal;
+    display: none;
+    }
+.header-address-list{
+    display: flex;
+    gap: 40px;
+}
+.header-address-iten{
+    color: var(--slate-color);
+ line-height: 1.5;
+ letter-spacing: 0.02em;
+ transition-property: color;
+ transition-duration: 250ms;
+ transition-timing-function: var(--primary-timing-function);
+}
+.header-address-iten:hover,
+.header-address-iten:focus{
+    color: var(--second-okean-color);
+}
+    
 
 
 

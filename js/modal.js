@@ -11,6 +11,5 @@
     function toggleModal() {
       refs.modal.classList.toggle("is-hidden");
     }
-    const isComing = confirm("Please confirm hotel reservation");
-console.log(isComing);
+    
   })();
