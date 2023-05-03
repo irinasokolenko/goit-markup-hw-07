@@ -655,7 +655,50 @@ body {
     padding-top: 96px;
     padding-bottom: 96px;
 } 
-.main-list
+.abaut-list{
+    display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 72px;
+}
+.baut-calk{
+    height: calc((100% - 216px) / 4);
+}
+.sambol-defs{
+    height: 112px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F4F4FD;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+ -moz-border-radius: 4px;
+ -ms-border-radius: 4px;
+ -o-border-radius: 4px;
+}
+.abaut-list-taytan{
+    font-size: 36px;
+   font-weight: 700;
+   text-align: center;
+   line-height: 1.11;
+}
+.abaut-text{
+    margin-top: 8px;
+   font-weight: 500;
+}
+/*section-photo-person*/
+.section-photo-person{
+    background-color: #F4F4FD;
+}
+.person-title{
+    display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ gap: 72px;
+ margin-top: 72px;
+}
+person-item/team-iten
+
                      
             
         
