@@ -1,28 +1,18 @@
-(() => {
-    const mobileMenu = document.querySelector('.js-menu-container');
-    const openMenuBtn = document.querySelector('.js-open-menu');
-    const closeMenuBtn = document.querySelector('.js-close-menu');
-  
-    const toggleMenu = () => {
-      const isMenuOpen =
-        openMenuBtn.getAttribute('aria-expanded') === 'true' || false;
-      openMenuBtn.setAttribute('aria-expanded', !isMenuOpen);
-      mobileMenu.classList.toggle('is-open');
-  
-      const scrollLockMethod = !isMenuOpen
-        ? 'disableBodyScroll'
-        : 'enableBodyScroll';
-      bodyScrollLock[scrollLockMethod](document.body);
-    };
-  
-    openMenuBtn.addEventListener('click', toggleMenu);
-    closeMenuBtn.addEventListener('click', toggleMenu);
-  
-    // Close the mobile menu on wider screens if the device orientation changes
-    window.matchMedia('(min-width: 768px)').addEventListener('change', e => {
-      if (!e.matches) return;
-      mobileMenu.classList.remove('is-open');
-      openMenuBtn.setAttribute('aria-expanded', false);
-      bodyScrollLock.enableBodyScroll(document.body);
-    });
-  })();
+const menuRefs = {
+  openMenuBtn: document.querySelector(".menu-close-btn"),
+  closeMenuBtn: document.querySelector(".hamburger"),
+  menu: document.querySelector(".mobile-menu"),
+  body: document.querySelector("body"),
+  hamburger: document.querySelector(".hamburger"),
+};
+
+function toggleMenu() {
+  menuRefs.menu?.classList.toggle("is-hidden");
+  menuRefs.menu?.classList.toggle("menu-animation");
+  // @ts-ignore
+  menuRefs.body?.classList.toggle("overflow-hidden");
+  menuRefs.hamburger?.classList.toggle("hamburger-anim");
+}
+
+menuRefs.openMenuBtn?.addEventListener("click", toggleMenu);
+menuRefs.closeMenuBtn?.addEventListener("click", toggleMenu);

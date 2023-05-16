@@ -1,9 +1,16 @@
-openMenuBtn.addEventListener('click', toggleMenu);
-closeMenuBtn.addEventListener('click', toggleMenu);
+export const modalRefs = {
+  openModalBtn: document.querySelector(".hero-btn"),
+  closeModalBtn: document.querySelector(".modal-close-btn"),
+  backdrop: document.querySelector(".modal-backdrop"),
+  modal: document.querySelector(".order-modal"),
+  body: document.querySelector("body"),
+};
 
-// Закрываем мобильное меню на более широких экранах
-// в случае изменения ориентации устройства.
-// Close the mobile menu on wider screens if the device orientation changes
-window.matchMedia('(min-width: 768px)').addEventListener('change', e => {
-  if (!e.matches) return;
-  mobileMenu.classList.remove('is-open');
+function toggleModal() {
+  modalRefs.backdrop?.classList.toggle("is-hidden");
+  modalRefs.modal?.classList.toggle("modal-animation");
+  modalRefs.backdrop?.classList.toggle("backdrop-animation");
+}
+
+modalRefs.openModalBtn?.addEventListener("click", toggleModal);
+modalRefs.closeModalBtn?.addEventListener("click", toggleModal);
